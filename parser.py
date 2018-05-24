@@ -19,7 +19,7 @@ last_output = ""
 final_output = []
 
 for line in data:
-    words = line.split(" ")
+    words = line.split()
     if len(words) > 2 : # check valid line
         splitted_tuile = words[2].split("/")
         if len(splitted_tuile) > 8 : # check valid tuile
